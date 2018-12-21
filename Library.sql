@@ -194,10 +194,12 @@ INSERT INTO Book_Author
 	('Mark Lee', 30)
 ;
 
+USE Library
 
 INSERT INTO Borrower
 	(name, address, phone)
 	VALUES
+	('Pearl Hart', '1303 39th St Missoula, MT 59803', '406-586-0349'),
 	('John Stockton', '402 S 6th St E Missoula, MT 59801', '406-594-4328'),
 	('Don Hughes', '3 Alder St Missoula, MT 59801', '406-483-5043'),
 	('Barry Douglas', '685 Strand Ave Missoula, MT 59802', '406-546-3201'),
